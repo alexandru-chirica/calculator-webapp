@@ -1,0 +1,12 @@
+<div class="calculator-container">
+  <app-calculator-display
+    [calculationDisplayData]="calculationDisplayData$ | async"
+  ></app-calculator-display>
+  <app-calculator-buttons
+    (addPartEvent)="addToCurrentPart($event)"
+    (calculateEvent)="calculate($event)"
+    (changeSignEvent)="changeSign()"
+    (clearEvent)="clear()"
+    (removeLastCharacterEvent)="removeLastCharacter()"
+  ></app-calculator-buttons>
+</div>

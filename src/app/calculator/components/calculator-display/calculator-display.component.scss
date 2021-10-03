@@ -1,0 +1,21 @@
+.calculator-display-container {
+  border: 1px solid gray;
+  margin: 0 0 20px 0;
+}
+
+.concatenated-parts-container {
+  font-size: 20px;
+  min-height: 25px;
+}
+
+.current-part-container {
+  font-size: 30px;
+  min-height: 35px;
+}
+
+.concatenated-parts-container,
+.current-part-container {
+  display: flex;
+  justify-content: end;
+  padding: 5px 10px;
+}

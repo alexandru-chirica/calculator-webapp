@@ -1,0 +1,41 @@
+.calculator-buttons-container {
+  display: grid;
+  height: 275px;
+  width: 325px;
+}
+
+.grid-row {
+  &-1 {
+    grid-row: 1;
+  }
+
+  &-2 {
+    grid-row: 2;
+  }
+
+  &-3 {
+    grid-row: 3;
+  }
+
+  &-4 {
+    grid-row: 4;
+  }
+
+  &-5 {
+    grid-row: 5;
+  }
+}
+
+.grid-column {
+  &-2-3 {
+    grid-column: 2/3;
+  }
+
+  &-3 {
+    grid-column: 3;
+  }
+
+  &-4 {
+    grid-column: 4;
+  }
+}
